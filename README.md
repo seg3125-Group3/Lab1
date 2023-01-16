@@ -20,7 +20,7 @@ If you need to modify/create the code push to a branch
 
 -Your signature (Website designed by ...) at the bottom of the page.  
 
--The use of <div> tags to make the questions uniform.  
+-The use of ``<div>``tags to make the questions uniform.  
   
 -Using external CSS (separate file) to set styles for titles, divisions, your signature at the
 bottom of the page. Explore font, color, alignment, etc. changes.
