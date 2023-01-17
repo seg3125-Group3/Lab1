@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+img{
+    width: 800px;
+    height: 350px;
+    object-fit: contain;
+
+}
+
+footer{
+    font-size: small;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    background-color: lightgreen;
+}
