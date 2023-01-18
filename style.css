@@ -26,6 +26,9 @@ img{
 
 footer{
     font-size: small;
+    position: absolute;
+    margin-top: 150px;
+    
 }
 
 button{
@@ -33,4 +36,12 @@ button{
     width: 300px;
     font-size: large;
     background-color: lightgreen;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
 }
