@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,64 @@
     <title>Group3-HTML Elements</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Simple Questionnaire</h1>
     </header>
-    <div>
-        <p>Placeholder for content</p>
+    <div class="main">
+        <div class="">
+            <p>The <a href="https://www.apple.com/">Apple</a> website has a very nice User Interface</p>
+            <h2>Here is a Screenshot of Apple.com</h2>
+            <a href="https://www.apple.com/"><img src="images/A1.png" alt="Screenshot of The Apple.com website"></a>
+
+        </div>
+        <div class="input">
+            <div>
+                <p>First Name: <input type="text" name="First Name" id="" placeholder="Ex. John"></p>
+                <p>Last Name: <input type="text" name="Last Name" id="" placeholder="Ex. Doe"></p>
+            </div>
+
+            <!-- Radio Buttons -->
+            <div class="radio">
+                <p>Are you in done High School? Yes:<input type="radio" name="Yes" id=""> No:<input type="radio"
+                        name="No" id=""></p>
+                        <p>What do you think of the UI of the website? Great:<input type="radio" name="Great" id=""> Okay:<input type="radio"
+                            name="Okay" id=""></p>
+            </div>
+
+            <div class="checklist">
+                <p>Please select your school level: <select name="" id="">
+                        <option value="school">High School</option>
+                        <option value="bsc">Undegraduate</option>
+                        <option value="msc">Masters</option>
+                        <option value="phd">PhD</option>
+                    </select></p>
+                    <p>Is the website user friendly?: <select name="" id="">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                       
+                    </select></p>
+            </div>
+            <div class="UI">
+                
+            </div>
+
+            <div class="freeForm">
+                <h2>Do you have any other comments before placing your order?</h2>
+                <textarea name="" id="" cols="50" rows="4"></textarea>
+            </div>
+            <br>
+            <button type="submit"> SUBMIT</button>
+        </div>  <div class="radio">
+            <p>Are you in done High School? Yes:<input type="radio" name="Yes" id=""> No:<input type="radio"
+                    name="No" id=""></p>
+        </div>
     </div>
 
-
-    <!-- Radio Buttons -->
-
+    <br>
     <!-- Checklist -->
-
+    <footer>Site Created By: Keon, Khalid, Owen and Shivan</footer>
 </body>
+
 </html>
