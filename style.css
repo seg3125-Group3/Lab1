@@ -2,77 +2,106 @@
    color picker www.w3schools.com/colors/colors_picker.asp
 */
 
-html {
-    background-color: white;
-  }
-   
-  body {
-    background-color: powderblue;
-    width: 600px;
-    border: 2px solid black;
-    padding: 0px 20px 20px 20px;
-    
-  }
-  
-  h1 {
-      font-size: 60px;
-      text-align: center;
-      margin: 0;
-      padding: 20px 0;
-      color: #c8ff00;  
-      text-shadow: 3px 3px 1px rgb(255, 255, 255);
-  }
-  h2 {
-    font-size: 20px;
-    text-align: left;
-    margin: 0;
-    padding: 20px 0;
-    color: #ff8800;  
-    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%); 
+  width: 98%;
 }
 
-  
-  img {
-    display: block;
-    margin: 0 auto;
-    align: center;
-    width:500px;
-    height:350px;
-  }
-  
-  p {
-    color: red;
-  }
-  
-  table {
-      border: 1px solid black;
-      background-color: #f1f1c1;
-  }
-  
-  /* Defining styling for a specific element type - each question */
-  .question {
-    background-color: black;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-  }
-  
-  /* Defining styling for a specific element type - large block buttons */
-  .block {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #ffff66;  /* yellow */
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  /* Defining styling for a specific element with an id */
-  #signature {
-    text-align: right;
-    color: red;
-    font-style: italic;
-    font-size: 75%;
-  }
+.main{
+  max-width: fit-content;
+  margin: auto;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: lightgray;
+  /* text-shadow: 3px 3px 1px rgb(255, 255, 255); */
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0;
+  color: #e5e5e5;
+  /* text-shadow: 3px 3px 1px rgb(255, 255, 255); */
+}
+
+a{
+  color: #e0fbfc;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 350px;
+}
+
+p {
+  color: #e0fbfc;
+}
+
+table {
+  border: 1px solid black;
+  background-color: #f1f1c1;
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ffff66;
+  /* yellow */
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Defining styling for a specific element with an id */
+#signature {
+  text-align: right;
+  color: red;
+  font-style: italic;
+  font-size: 75%;
+}
+.ans{
+  color: white;
+}
+
+button{
+  height: 50px;
+  width: 300px;
+  font-size: large;
+  background-color: lightgreen;
+  text-align: center;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+
+button:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.hoverMe:hover + .hide{
+  display: inline;
+  float: inherit;
+}

@@ -22,45 +22,77 @@
         </div>
         <div class="input">
             <div>
+                <p>Please enter your name:</p>
                 <p>First Name: <input type="text" name="First Name" id="" placeholder="Ex. John"></p>
                 <p>Last Name: <input type="text" name="Last Name" id="" placeholder="Ex. Doe"></p>
             </div>
 
             <!-- Radio Buttons -->
             <div class="radio">
-                <p>Are you in done High School? Yes:<input type="radio" name="Yes" id=""> No:<input type="radio"
-                        name="No" id=""></p>
-                        <p>What do you think of the UI of the website? Great:<input type="radio" name="Great" id=""> Okay:<input type="radio"
-                            name="Okay" id=""></p>
+                <form>
+                    <p>Are you in done High School?
+                        <label for="ansYes" class="ans">Yes:</label>
+                        <input type="radio" name="Yes" id="ansYes">
+                        <label for="ansNo" class="ans">No:</label>
+                        <input type="radio" name="No" id="ansNo">
+                    </p>
+                    <p>What do you think of the UI of the website?
+                        <label for="ansGrt" class="ans">Great:</label>
+                        <input type="radio" name="Great" id="ansGrt">
+                        <label for="ansOk" class="ans">Okay:</label>
+                        <input type="radio" name="Okay" id="ansOk">
+                    </p>
+                </form>
             </div>
 
             <div class="checklist">
-                <p>Please select your school level: <select name="" id="">
+                <p class="hoverMe">Please select your school level: <select name="" id="">
+                        <option label=" "></option>
                         <option value="school">High School</option>
                         <option value="bsc">Undegraduate</option>
                         <option value="msc">Masters</option>
                         <option value="phd">PhD</option>
-                    </select></p>
-                    <p>Is the website user friendly?: <select name="" id="">
+                    </select><div class="hide">Click select a value</div></p>
+                    
+                <p class="hoverMe">Is the website user friendly?: <select name="" id="">
+                        <option label=" "></option>
                         <option value="Yes">Yes</option>
+                        <option value="Slightly">Slightly</option>
+                        <option value="Neutral">Neutral</option>
                         <option value="No">No</option>
-                       
-                    </select></p>
+                        <option value="absNot">Absolutely Not</option>
+                    </select>
+                </p>
+                <div class="hide">Click select a value</div>
             </div>
-            <div class="UI">
-                
+            <div>
+                <p>How do you commute (Select all that apply):</p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I cycle</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I drive</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Walk">
+                <label for="vehicle3"> I walk</label><br>
+                <input type="checkbox" id="vehicle4" name="vehicle4" value="Scooter">
+                <label for="vehicle4"> I scooter</label>
             </div>
 
             <div class="freeForm">
                 <h2>Do you have any other comments before placing your order?</h2>
                 <textarea name="" id="" cols="50" rows="4"></textarea>
             </div>
+            <div class="radio">
+                <p>Would you like to enter the Laptop Give away?
+                    <label for="ansYes" class="ans">Yes:</label>
+                    <input type="radio" name="Yes" id="ansYes">
+                    <label for="ansNo" class="ans">No:</label>
+                    <input type="radio" name="No" id="ansNo">
+                </p>
+            </div>
             <br>
             <button type="submit"> SUBMIT</button>
-        </div>  <div class="radio">
-            <p>Are you in done High School? Yes:<input type="radio" name="Yes" id=""> No:<input type="radio"
-                    name="No" id=""></p>
         </div>
+
     </div>
 
     <br>
